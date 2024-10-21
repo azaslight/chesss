@@ -1,0 +1,44 @@
+body {
+    background: #199FE0;
+    text-align: center;
+}
+
+.start {
+    background: #199FE0;
+    padding: 7px 30px;
+    font-size: 18px;
+    color: white;
+    text-align: center;  
+    border: solid 2px white;
+}
+
+.start:hover {
+    background: white;
+    color: #199FE0;
+}
+
+#board {
+    width: 400px;
+    margin-left: 25%;
+}
+
+.dark_figure, .light_figure {
+    align-content: center;
+}
+
+.LightField, .DarkField {
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.LightField {
+    background-color: white; /* Светлые клетки */
+}
+
+.DarkField {
+    background-color: #006400; /* Тёмно-зелёные клетки */
+}
+
